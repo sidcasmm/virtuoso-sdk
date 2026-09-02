@@ -1,0 +1,10 @@
+framework module player_downloads {
+  umbrella header "player_downloads-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module player_downloads.Swift {
+  header "player_downloads-Swift.h"
+}

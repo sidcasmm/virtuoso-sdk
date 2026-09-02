@@ -1,0 +1,21 @@
+name: player_analytics
+description: Client-side QoE collector for player_core. JSON events and a viewend report; the app owns ingest.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.13.0-0
+  flutter: '>=3.47.0-0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  player_core:
+    path: ../player_core
+  device_info_plus: ^12.3.0
+  connectivity_plus: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

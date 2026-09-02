@@ -1,0 +1,10 @@
+framework module player_ads {
+  umbrella header "player_ads-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module player_ads.Swift {
+  header "player_ads-Swift.h"
+}

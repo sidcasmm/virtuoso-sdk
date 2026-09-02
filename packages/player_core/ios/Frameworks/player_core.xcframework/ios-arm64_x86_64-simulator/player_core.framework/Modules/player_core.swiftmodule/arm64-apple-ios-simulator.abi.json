@@ -1,0 +1,1363 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "player_core",
+    "printedName": "player_core",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdsBinder",
+        "printedName": "AdsBinder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onLoad",
+            "printedName": "onLoad(playerId:player:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVPlayer",
+                "printedName": "AVFoundation.AVPlayer",
+                "usr": "c:objc(cs)AVPlayer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11player_core9AdsBinderP6onLoad0A2Id0A0ys5Int64V_So8AVPlayerCtF",
+            "mangledName": "$s11player_core9AdsBinderP6onLoad0A2Id0A0ys5Int64V_So8AVPlayerCtF",
+            "moduleName": "player_core",
+            "genericSig": "<τ_0_0 where τ_0_0 : player_core.AdsBinder>",
+            "sugared_genericSig": "<Self where Self : player_core.AdsBinder>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPlay",
+            "printedName": "onPlay(playerId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11player_core9AdsBinderP6onPlay0A2Idys5Int64V_tF",
+            "mangledName": "$s11player_core9AdsBinderP6onPlay0A2Idys5Int64V_tF",
+            "moduleName": "player_core",
+            "genericSig": "<τ_0_0 where τ_0_0 : player_core.AdsBinder>",
+            "sugared_genericSig": "<Self where Self : player_core.AdsBinder>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRelease",
+            "printedName": "onRelease(playerId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11player_core9AdsBinderP9onRelease0A2Idys5Int64V_tF",
+            "mangledName": "$s11player_core9AdsBinderP9onRelease0A2Idys5Int64V_tF",
+            "moduleName": "player_core",
+            "genericSig": "<τ_0_0 where τ_0_0 : player_core.AdsBinder>",
+            "sugared_genericSig": "<Self where Self : player_core.AdsBinder>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11player_core9AdsBinderP",
+        "mangledName": "$s11player_core9AdsBinderP",
+        "moduleName": "player_core",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdsPlayback",
+        "printedName": "AdsPlayback",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "binder",
+            "printedName": "binder",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any player_core.AdsBinder)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11player_core11AdsPlaybackO6binderAA0C6Binder_pSgvpZ",
+            "mangledName": "$s11player_core11AdsPlaybackO6binderAA0C6Binder_pSgvpZ",
+            "moduleName": "player_core",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any player_core.AdsBinder)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsBinder",
+                        "printedName": "any player_core.AdsBinder",
+                        "usr": "s:11player_core9AdsBinderP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11player_core11AdsPlaybackO6binderAA0C6Binder_pSgvgZ",
+                "mangledName": "$s11player_core11AdsPlaybackO6binderAA0C6Binder_pSgvgZ",
+                "moduleName": "player_core",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any player_core.AdsBinder)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsBinder",
+                        "printedName": "any player_core.AdsBinder",
+                        "usr": "s:11player_core9AdsBinderP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11player_core11AdsPlaybackO6binderAA0C6Binder_pSgvsZ",
+                "mangledName": "$s11player_core11AdsPlaybackO6binderAA0C6Binder_pSgvsZ",
+                "moduleName": "player_core",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11player_core11AdsPlaybackO6binderAA0C6Binder_pSgvMZ",
+                "mangledName": "$s11player_core11AdsPlaybackO6binderAA0C6Binder_pSgvMZ",
+                "moduleName": "player_core",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11player_core11AdsPlaybackO",
+        "mangledName": "$s11player_core11AdsPlaybackO",
+        "moduleName": "player_core",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPlayer",
+        "printedName": "MediaPlayer",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OfflinePlayback",
+        "printedName": "OfflinePlayback",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "resolver",
+            "printedName": "resolver",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> AVFoundation.AVURLAsset?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> AVFoundation.AVURLAsset?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AVFoundation.AVURLAsset?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AVURLAsset",
+                            "printedName": "AVFoundation.AVURLAsset",
+                            "usr": "c:objc(cs)AVURLAsset"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11player_core15OfflinePlaybackO8resolverSo10AVURLAssetCSgSScSgvpZ",
+            "mangledName": "$s11player_core15OfflinePlaybackO8resolverSo10AVURLAssetCSgSScSgvpZ",
+            "moduleName": "player_core",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> AVFoundation.AVURLAsset?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> AVFoundation.AVURLAsset?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "AVFoundation.AVURLAsset?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AVURLAsset",
+                                "printedName": "AVFoundation.AVURLAsset",
+                                "usr": "c:objc(cs)AVURLAsset"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11player_core15OfflinePlaybackO8resolverSo10AVURLAssetCSgSScSgvgZ",
+                "mangledName": "$s11player_core15OfflinePlaybackO8resolverSo10AVURLAssetCSgSScSgvgZ",
+                "moduleName": "player_core",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> AVFoundation.AVURLAsset?)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> AVFoundation.AVURLAsset?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "AVFoundation.AVURLAsset?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AVURLAsset",
+                                "printedName": "AVFoundation.AVURLAsset",
+                                "usr": "c:objc(cs)AVURLAsset"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11player_core15OfflinePlaybackO8resolverSo10AVURLAssetCSgSScSgvsZ",
+                "mangledName": "$s11player_core15OfflinePlaybackO8resolverSo10AVURLAssetCSgSScSgvsZ",
+                "moduleName": "player_core",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11player_core15OfflinePlaybackO8resolverSo10AVURLAssetCSgSScSgvMZ",
+                "mangledName": "$s11player_core15OfflinePlaybackO8resolverSo10AVURLAssetCSgSScSgvMZ",
+                "moduleName": "player_core",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11player_core15OfflinePlaybackO",
+        "mangledName": "$s11player_core15OfflinePlaybackO",
+        "moduleName": "player_core",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_core",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlayerCorePlugin",
+        "printedName": "PlayerCorePlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@player_core@objc(cs)PlayerCorePlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s11player_core16PlayerCorePluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+            "moduleName": "player_core",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlayerCorePlugin",
+                "printedName": "player_core.PlayerCorePlugin",
+                "usr": "c:@M@player_core@objc(cs)PlayerCorePlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@player_core@objc(cs)PlayerCorePlugin(im)init",
+            "mangledName": "$s11player_core16PlayerCorePluginCACycfc",
+            "moduleName": "player_core",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@player_core@objc(cs)PlayerCorePlugin",
+        "mangledName": "$s11player_core16PlayerCorePluginC",
+        "moduleName": "player_core",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_core"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/MediaCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 134,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/MediaCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 140,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/MediaCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 147,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/MediaPreloader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 294,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1020,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1053,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1084,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1121,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1156,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1277,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1305,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1471,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1632,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "Array",
+      "offset": 1968,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2178,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2215,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17229,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/NativePlayer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 34169,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PipSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 402,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PipSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 409,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PipSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 3,
+      "value": "320"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PipSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 433,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PipSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 521,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PipSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 610,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4792,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4811,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4828,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4847,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4865,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4886,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4907,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4924,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4944,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5002,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5031,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5055,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5075,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5100,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5119,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5173,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5193,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5213,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5230,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5253,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5276,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5298,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5322,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5347,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5363,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5391,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5419,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5444,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5509,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5529,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5547,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5611,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5632,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5695,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5715,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5733,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5781,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5801,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5850,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5866,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5883,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5902,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5921,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5970,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5990,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6010,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "StringLiteral",
+      "offset": 37455,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerApi.g.swift",
+      "kind": "StringLiteral",
+      "offset": 53343,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerHostApiImpl.swift",
+      "kind": "Dictionary",
+      "offset": 746,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/PlayerHostApiImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 780,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/SdkLicense.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 66,
+      "value": "\"MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmW8O0exA1x3wGmah3n+GstiQBMBY\""
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/SdkLicense.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 62,
+      "value": "\"0bfOF75T9hSRZBJogYrC3Ak8HlSrDxFcjY1C\/WnaH\/NVb08KeB6DAjXzfQ==\""
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_core\/ios\/player_core\/Sources\/player_core\/SdkLicense.swift",
+      "kind": "Array",
+      "offset": 593,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "player_downloads",
+    "printedName": "player_downloads",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_downloads",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "player_downloads"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "player_downloads"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "player_downloads"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_downloads"
+      },
+      {
+        "kind": "Import",
+        "name": "player_core",
+        "printedName": "player_core",
+        "declKind": "Import",
+        "moduleName": "player_downloads"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "player_downloads"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_downloads"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "player_downloads"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "player_downloads"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlayerDownloadsPlugin",
+        "printedName": "PlayerDownloadsPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@player_downloads@objc(cs)PlayerDownloadsPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s16player_downloads21PlayerDownloadsPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+            "moduleName": "player_downloads",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlayerDownloadsPlugin",
+                "printedName": "player_downloads.PlayerDownloadsPlugin",
+                "usr": "c:@M@player_downloads@objc(cs)PlayerDownloadsPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@player_downloads@objc(cs)PlayerDownloadsPlugin(im)init",
+            "mangledName": "$s16player_downloads21PlayerDownloadsPluginCACycfc",
+            "moduleName": "player_downloads",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@player_downloads@objc(cs)PlayerDownloadsPlugin",
+        "mangledName": "$s16player_downloads21PlayerDownloadsPluginC",
+        "moduleName": "player_downloads",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4822,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4845,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4863,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4884,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4902,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4922,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4976,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4997,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5046,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5066,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5086,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "StringLiteral",
+      "offset": 17969,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadApi.g.swift",
+      "kind": "StringLiteral",
+      "offset": 23979,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 826,
+      "length": 31,
+      "value": "\"com.virtuoso.player.downloads\""
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "Dictionary",
+      "offset": 904,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "Dictionary",
+      "offset": 961,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "Dictionary",
+      "offset": 1025,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "Dictionary",
+      "offset": 1088,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "Dictionary",
+      "offset": 1135,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "Dictionary",
+      "offset": 1207,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 1350,
+      "length": 35,
+      "value": "\"com.virtuoso.player.downloads.hls\""
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1421,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1465,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "StringLiteral",
+      "offset": 1734,
+      "length": 36,
+      "value": "\"com.virtuoso.player.downloads.file\""
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1806,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_downloads\/ios\/player_downloads\/Sources\/player_downloads\/DownloadCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1850,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

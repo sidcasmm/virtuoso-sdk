@@ -1,0 +1,44 @@
+Virtuoso Player Proprietary License
+
+Copyright (c) 2026 Siddharth. All rights reserved.
+
+This software is proprietary. It is not open source and is not licensed
+under Apache, MIT, BSD, GPL, or any other OSI-approved license.
+
+1. Grant
+   Use of Virtuoso Player (source, binaries, Dart packages, native
+   libraries, and documentation) is permitted only under a separate
+   commercial license from the copyright holder, together with a valid
+   license token bound to your application identifiers.
+
+2. Permitted use
+   If you hold a valid commercial license, you may embed Virtuoso Player
+   in your own application and distribute that application to end users.
+
+3. Restrictions
+   You may not:
+   - publish, sublicense, or redistribute this software (or a substantial
+     portion of it) as a library, plugin, or competing video player SDK;
+   - share license tokens, private keys, or this source tree with anyone
+     who is not licensed;
+   - remove or hide copyright, license, or proprietary notices.
+
+4. No implied rights
+   No other license is granted, by implication or otherwise. Evaluation
+   copies, if any, are licensed only for non-production testing.
+
+5. Third-party components
+   Bundled or linked components remain under their own terms. In
+   particular, AndroidX Media3 / ExoPlayer is licensed under Apache
+   License 2.0, and Google IMA / Cast SDKs are licensed under Google's
+   terms. Those licenses are not a grant of this software.
+
+6. Disclaimer
+   THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE
+   FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM USE OF THIS
+   SOFTWARE.
+
+Replace the copyright line with your legal name or company if it differs.

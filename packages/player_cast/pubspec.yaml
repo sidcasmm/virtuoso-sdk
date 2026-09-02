@@ -1,0 +1,28 @@
+name: player_cast
+description: Chromecast session for player_core. Google Cast SDK behind Pigeon.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.13.0-0
+  flutter: '>=3.47.0-0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  player_core:
+    path: ../player_core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.virtuoso.player.player_cast
+        pluginClass: PlayerCastPlugin
+      ios:
+        pluginClass: PlayerCastPlugin

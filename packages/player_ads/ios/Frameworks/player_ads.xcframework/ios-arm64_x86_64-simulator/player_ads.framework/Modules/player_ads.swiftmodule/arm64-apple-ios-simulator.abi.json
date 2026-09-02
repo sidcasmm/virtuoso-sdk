@@ -1,0 +1,380 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "player_ads",
+    "printedName": "player_ads",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_ads",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleInteractiveMediaAds",
+        "printedName": "GoogleInteractiveMediaAds",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "Import",
+        "name": "player_core",
+        "printedName": "player_core",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "Import",
+        "name": "player_core",
+        "printedName": "player_core",
+        "declKind": "Import",
+        "moduleName": "player_ads"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlayerAdsPlugin",
+        "printedName": "PlayerAdsPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@player_ads@objc(cs)PlayerAdsPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s10player_ads15PlayerAdsPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+            "moduleName": "player_ads",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PlayerAdsPlugin",
+                "printedName": "player_ads.PlayerAdsPlugin",
+                "usr": "c:@M@player_ads@objc(cs)PlayerAdsPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@player_ads@objc(cs)PlayerAdsPlugin(im)init",
+            "mangledName": "$s10player_ads15PlayerAdsPluginCACycfc",
+            "moduleName": "player_ads",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@player_ads@objc(cs)PlayerAdsPlugin",
+        "mangledName": "$s10player_ads15PlayerAdsPluginC",
+        "moduleName": "player_ads",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4744,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4763,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4782,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4800,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4819,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4840,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4857,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4905,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsApi.g.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4919,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsApi.g.swift",
+      "kind": "StringLiteral",
+      "offset": 11627,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsApi.g.swift",
+      "kind": "StringLiteral",
+      "offset": 15460,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 403,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 425,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 473,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsCoordinator.swift",
+      "kind": "Dictionary",
+      "offset": 728,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsCoordinator.swift",
+      "kind": "Dictionary",
+      "offset": 774,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsCoordinator.swift",
+      "kind": "Dictionary",
+      "offset": 824,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/VirtuosoPlayer\/packages\/player_ads\/ios\/player_ads\/Sources\/player_ads\/AdsCoordinator.swift",
+      "kind": "Dictionary",
+      "offset": 878,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

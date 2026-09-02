@@ -1,0 +1,10 @@
+framework module player_cast {
+  umbrella header "player_cast-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module player_cast.Swift {
+  header "player_cast-Swift.h"
+}

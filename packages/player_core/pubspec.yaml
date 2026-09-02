@@ -1,0 +1,26 @@
+name: player_core
+description: Engine-agnostic Flutter video player (Media3 / AVPlayer) behind a Pigeon contract.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.13.0-0
+  flutter: '>=3.47.0-0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.virtuoso.player.player_core
+        pluginClass: PlayerCorePlugin
+      ios:
+        pluginClass: PlayerCorePlugin
